@@ -51,7 +51,7 @@
     // 顶部title
     ".monaco-workbench.mac .part.titlebar": "background-color: unset !important",
     ".monaco-workbench.mac .part.titlebar>.titlebar-container": "margin-left: 6px; background: #1e1f1c",
-    ".monaco-split-view2.vertical>.monaco-scrollable-element>.split-view-container>.split-view-view": "background: ##272822"
+    ".monaco-split-view2.vertical>.monaco-scrollable-element>.split-view-container>.split-view-view": "background: #272822"
     // ".monaco-workbench .part.titlebar>.titlebar-container>.titlebar-drag-region": "background: #272822",
   },
   // "window.titleBarStyle": "native",
