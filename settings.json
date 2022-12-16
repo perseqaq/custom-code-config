@@ -1,0 +1,63 @@
+{
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "Monaco, 'Courier New', monospace",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "window.commandCenter": true,
+  "update.mode": "none",
+
+
+  "customizeUI.stylesheet": {
+    ".editor .scrollbar .slider": "visibility: hidden; border-radius: 100vw; width: 50% !important; margin: 25% !important;",
+    ".editor .scrollbar:hover .slider": "visibility: initial",
+    ".editor .decorationsOverviewRuler": "display: none !important",
+    ".notifications-toasts.visible": "display: none !important",
+    // ".part.sidebar > .composite.title > .title-label": "overflow: hidden",
+    // ".part.sidebar > .composite.title > .title-label h2": "margin-left: -4.5rem",
+    ".monaco-workbench.noeditorarea .part.panel.bottom .composite.title": "margin-left: 4rem",
+    // remove stupid blue outline
+    ".monaco-workbench [tabindex=\"0\"]:focus, .monaco-workbench [tabindex=\"-1\"]:focus, .monaco-workbench .synthetic-focus, .monaco-workbench select:focus, .monaco-workbench .monaco-list:not(.element-focused):focus:before, .monaco-workbench input[type=\"button\"]:focus, .monaco-workbench button:focus, .monaco-list-row.focused": "outline: 0px !important",
+    // make debug toolbar not suck
+    ".monaco-workbench .debug-toolbar": "height: 1.5rem !important; top: .35rem !important; border-radius: .3rem !important; box-shadow: none !important",
+    // make find widget prettier
+    ".monaco-workbench .editor-widget.find-widget": "border-radius: .3rem !important; right: 0 !important; margin: .5rem !important; background: var(--vscode-input-background) !important;",
+    ".monaco-workbench .editor-widget.find-widget .monaco-sash.vertical": "display: none !important",
+    ".monaco-workbench .editor-widget.find-widget .toggle.left": "opacity: .5 !important",
+    ".monaco-workbench .editor-widget.find-widget .find-part .controls": "opacity: .5 !important",
+    ".monaco-workbench .editor-widget.find-widget .find-actions .matchesCount": "padding: 0 !important",
+    ".monaco-workbench .editor-widget.find-widget:not(.visible)": "transform: translateY(calc(-100% - 25px)) !important",
+    // make command palette prettier
+    ".monaco-workbench .quick-input-widget": "background: var(--vscode-input-background) !important; top: 15vh !important; overflow: hidden !important; border-radius: .3rem !important; box-shadow: 0 0 8px 2px rgb(0 0 0 / 16%) !important; border-radius: .3rem !important; padding: 0 !important;",
+    ".monaco-workbench .quick-input-widget .quick-input-list .monaco-list-rows": "background: var(--vscode-input-background) !important;",
+    ".monaco-workbench .quick-input-widget .quick-input-list .monaco-list-row.focused": "background: var(--vscode-button-background) !important;",
+    ".monaco-workbench .quick-input-widget .quick-input-list .shadow.top": "height: 2rem !important; opacity: .5 !important;",
+    ".monaco-workbench .quick-input-widget .quick-input-list .monaco-progress-container.quick-input-progress.done": "display: none !important;",
+    ".invisible.scrollbar": "display: none !important",
+    // make suggestions widget a bit better
+    ".editor-widget.suggest-widget.visible": "border-radius: 0 0 .3rem .3rem !important; overflow: hidden !important",
+    // give test icons some breathing room
+    ".monaco-workbench .codicon.codicon-testing-passed-icon": "font-size: 14px !important; height: 14px !important; width: 14px !important; left: 4px !important; width: 14px !important; height: 14px; !important;",
+    ".monaco-workbench .codicon.codicon-testing-failed-icon": "font-size: 14px !important; height: 14px !important; width: 14px !important; left: 4px !important; width: 14px !important; height: 14px; !important;",
+    ".monaco-workbench .codicon.codicon-testing-queued-icon": "font-size: 14px !important; height: 14px !important; width: 14px !important; left: 4px !important; width: 14px !important; height: 14px; !important;",
+    ".monaco-workbench .codicon.codicon-testing-skipped-icon": "font-size: 14px !important; height: 14px !important; width: 14px !important; left: 4px !important; width: 14px !important; height: 14px; !important;",
+    ".monaco-workbench .codicon-notebook-state-executing": "font-size: 14px !important; height: 14px !important; width: 14px !important; left: 4px !important; width: 14px !important; height: 14px; !important;",
+    ".monaco-editor .codicon.codicon-testing-run-icon": "font-size: 14px !important; height: 14px !important; width: 14px !important; left: 4px !important; width: 14px !important; height: 14px; !important;",
+    ".monaco-editor .codicon.codicon-testing-run-all-icon": "font-size: 14px !important; height: 14px !important; width: 14px !important; left: 4px !important; width: 14px !important; height: 14px; !important;",
+    // 左侧菜单
+    ".monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item .action-label": "margin: 0 auto;",
+    ".monaco-workbench .activitybar>.content>.composite-bar": "margin-top: 10px",
+    ".monaco-action-bar.vertical .checked > .action-label": "background: #243B55; border-radius: 10px",
+    // 顶部title
+    ".monaco-workbench.mac .part.titlebar": "background-color: unset !important",
+    ".monaco-workbench.mac .part.titlebar>.titlebar-container": "margin-left: 6px; background: #1e1f1c",
+    // ".monaco-workbench .part.titlebar>.titlebar-container>.titlebar-drag-region": "background: #272822",
+  },
+  // "window.titleBarStyle": "native",
+  "customizeUI.activityBar": "wide",
+  "customizeUI.statusBarPosition": "under-panel",
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "ayu",
+  "workbench.editor.wrapTabs": true,
+  "window.zoomLevel": 1
+}
