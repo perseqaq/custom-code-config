@@ -44,11 +44,11 @@
     ".monaco-workbench .codicon-notebook-state-executing": "font-size: 14px !important; height: 14px !important; width: 14px !important; left: 4px !important; width: 14px !important; height: 14px; !important;",
     ".monaco-editor .codicon.codicon-testing-run-icon": "font-size: 14px !important; height: 14px !important; width: 14px !important; left: 4px !important; width: 14px !important; height: 14px; !important;",
     ".monaco-editor .codicon.codicon-testing-run-all-icon": "font-size: 14px !important; height: 14px !important; width: 14px !important; left: 4px !important; width: 14px !important; height: 14px; !important;",
-    // 左侧菜单
+    // left menu
     ".monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item .action-label": "margin: 0 auto;",
     ".monaco-workbench .activitybar>.content>.composite-bar": "margin-top: 10px",
     ".monaco-action-bar.vertical .checked > .action-label": "background: #243B55; border-radius: 10px",
-    // 顶部title
+    // top title
     ".monaco-workbench.mac .part.titlebar": "background-color: unset !important",
     ".monaco-workbench.mac .part.titlebar>.titlebar-container": "margin-left: 6px; background: #1e1f1c",
     ".monaco-split-view2.vertical>.monaco-scrollable-element>.split-view-container>.split-view-view": "background: #272822"
